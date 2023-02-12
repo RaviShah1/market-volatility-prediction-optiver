@@ -8,6 +8,8 @@ My other published posts on this competition are here:
 - https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/discussion/265193
 - https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/discussion/253503
 
+The two main files containing the code are feature_engineering.py and train_model.py. This code is an improvement upon the baseline in the second link in references.
+
 # Pipeline
 ![image](https://github.com/RaviShah1/market-volatility-prediction-optiver/blob/main/images/Model_Pipeline.jpg)
 ![image](https://github.com/RaviShah1/market-volatility-prediction-optiver/blob/main/images/feature_formulas.jpeg)

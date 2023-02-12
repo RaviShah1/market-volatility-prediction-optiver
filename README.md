@@ -1,6 +1,6 @@
 # market-volatility-prediction-optiver
 
-@ Overview
+# Overview
 
 This is my submission for the Optiver Realized Volatility competition on Kaggle: https://www.kaggle.com/competitions/optiver-realized-volatility-prediction
 

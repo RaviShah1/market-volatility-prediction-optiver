@@ -1,3 +1,18 @@
+import os
+import glob
+from joblib import Parallel, delayed
+import pandas as pd
+import numpy as np
+import scipy as sc
+from sklearn.model_selection import KFold
+import lightgbm as lgb
+import warnings
+
+from feature_engineering import *
+
+# data directory
+data_dir = '../input/optiver-realized-volatility-prediction/'
+
 # Function to calculate the root mean squared percentage error
 def rmspe(y_true, y_pred):
     return np.sqrt(np.mean(np.square((y_true - y_pred) / y_true)))
